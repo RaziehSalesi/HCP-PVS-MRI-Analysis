@@ -1,0 +1,17 @@
+# Python dependencies for the HCP PVS analysis notebooks
+# Install with: pip install -r requirements.txt
+
+numpy
+pandas
+nibabel
+matplotlib
+scikit-image
+PyYAML
+scipy
+statsmodels
+seaborn
+pingouin
+
+
+# Jupyter environment for running the notebooks
+ipykernel

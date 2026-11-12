@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as follows:"
+title: "HCP MRI-Based Perivascular Space (PVS) Analysis"
+type: software
+authors:
+  - family-names: Salesi
+    given-names: Razieh
+version: 1.0.0
+abstract: >
+  Python-based image-processing workflows for MRI-based perivascular
+  space (PVS) analysis using T1-weighted, T2-weighted, and enhanced
+  perivascular contrast (EPC) images from the Human Connectome Project.
+  The repository includes modality-specific processing pipelines,
+  quantitative PVS measurements, visualization, and statistical analysis.
+keywords:
+  - Perivascular spaces
+  - Glymphatic system
+  - MRI
+  - Medical image processing
+  - Human Connectome Project
+  - Neuroimaging
+  - Python

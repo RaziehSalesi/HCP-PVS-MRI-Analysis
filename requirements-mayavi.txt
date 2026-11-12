@@ -1,0 +1,3 @@
+# Additional dependencies for 3D visualization
+-r requirements.txt
+mayavi
