@@ -471,6 +471,9 @@ outputs/
 
 The `figures/` directory contains selected visual examples from the MRI preprocessing, PVS detection, and visualization stages of the analysis. These figures illustrate the processing workflow using T1-weighted (T1w), T2-weighted (T2w), and enhanced perivascular contrast (EPC) images.
 
+
+```text
+
 figures/
 │
 ├── 01_Preprocessing/
@@ -493,6 +496,7 @@ figures/
 │   ├── EPC_PVS_overlay_different_slices_combined_image.png
 │   └── EPC_PVS_3D_render.png
 
+```
 
 
 ### 1. Preprocessing
