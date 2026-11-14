@@ -562,6 +562,7 @@ Related Articles:
 Published Conference Papers:
 
 •	Salesi, R., Soltanian-Zadeh, H. (2025). Quantitative Mapping of Perivascular Spaces Across MRI Modalities Using Vesselness Filtering and Morphometric Analysis. In Proceedings of the 2025 32nd National and 10th International Iranian Conference on Biomedical Engineering (ICBME). IEEE. https://doi.org/10.1109/ICBME68496.2025.11392429
+
 Published Journal Articles:
 
 •   Salesi, R., Soltanian-Zadeh, H., & Arab Ahmadi, M. (2026). Noninvasive evaluation of the glymphatic system using DTI and its application in classification of Alzheimer's patients. Iranian Journal of Biomedical Engineering, 20(2), e742724. https://doi.org/10.22041/ijbme.2026.2086371.2025
