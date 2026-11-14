@@ -81,15 +81,15 @@ The processing notebooks expect a local project data directory containing one di
 
 **Dataset Characteristics:**
 
-Dataset: Human Connectome Project (HCP), S900 Release
-Number of subjects: 50
-Population: Healthy controls (no known neurological or psychiatric disorders, based on the dataset's participant selection criteria)
-Scanner: Siemens Skyra 3T
-Image space: MPRAGE space
-Voxel resolution: 0.7 × 0.7 × 0.7 mm³ (isotropic)
-Image dimensions: 260 × 311 × 260 voxels
+- Dataset: Human Connectome Project (HCP), S900 Release
+- Number of subjects: 50
+- Population: Healthy controls (no known neurological or psychiatric disorders, based on the dataset's participant selection criteria)
+- Scanner: Siemens Skyra 3T
+- Image space: MPRAGE space
+- Voxel resolution: 0.7 × 0.7 × 0.7 mm³ (isotropic)
+- Image dimensions: 260 × 311 × 260 voxels
 -----------------------------------------------------------------------
-## Available MRI Files
+### Available MRI Files
 
 The following files were downloaded for each subject:
 
@@ -100,7 +100,7 @@ The following files were downloaded for each subject:
 | `aparc+aseg.nii.gz` | FreeSurfer cortical and subcortical parcellation/segmentation image |
 
 
-## Data Organization:
+### Data Organization:
 Original HCP download organization:
 
 ```text
@@ -118,18 +118,18 @@ HCP_50sub/
     └── ...
 ```
 
-## Data Source:
+### Data Source:
 Human Connectome Project (HCP): https://www.humanconnectome.org/
 The data were downloaded from the HCP S3 public bucket (hcp-openaccess) using the AWS CLI.
 
-# Download Procedure:
+### Download Procedure:
 The MRI files were downloaded from the HCP S900 public AWS S3 bucket using the AWS Command Line Interface (AWS CLI).
 The download script reads subject IDs from subject_list_file.txt and retrieves the following files for each subject: 
 1) T1-weighted MRI  2) T2-weighted MRI  3)aparc+aseg segmentation
 
 The downloaded files are saved in subject-specific directories.
 
-# Prerequisites:
+### Prerequisites:
 AWS CLI installed and configured.
 Access to the HCP Open Access S3 bucket.
 A text file (subject_list_file.txt) containing the selected subject IDs.
@@ -166,7 +166,7 @@ Brain regions evaluated: Centrum Semi-ovale
 Blinding to clinical information: Yes
 
 2. Wardlaw Scoring System
-### Wardlaw Visual Rating System
+#### Wardlaw Visual Rating System
 
 The Wardlaw visual rating system was used for neuroradiological assessment of PVS in the HCP dataset.
 
@@ -196,12 +196,12 @@ Slice selection criteria: The slice with the highest number of PVS which is reco
 
 4. References and Acknowledgements
 
-### References
+#### References
 1- Sepehrband et al. (2019) — Image processing approaches to enhance perivascular space visibility and quantification using MRI.
 2- Frangi et al. (1998) — Multiscale vessel enhancement filtering.
 3- Potter et al. (2015) — Cerebral perivascular spaces visible on magnetic resonance imaging: Development of a qualitative rating scale and its observer reliability.
 
-### Acknowledgements
+#### Acknowledgements
 
 We acknowledge the neuroradiologist who contributed to the visual assessment of PVS and the selection of the corresponding axial slices used in this study.
 
